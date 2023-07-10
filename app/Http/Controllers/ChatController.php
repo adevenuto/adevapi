@@ -17,7 +17,7 @@ class ChatController extends Controller
                 'model' => 'gpt-3.5-turbo',
                 'messages' => [[
                     'role' => 'user',
-                    'content' => 'Hello!',
+                    'content' => $query,
                  ]],
             ]);
 
