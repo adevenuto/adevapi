@@ -18,6 +18,9 @@ return [
 
     'name' => env('APP_NAME', 'Laravel'),
 
+    //  open.ai API key
+    'open_ai_api_key' => env('OPEN_AI_API_KEY', ''),
+
     /*
     |--------------------------------------------------------------------------
     | Application Environment
